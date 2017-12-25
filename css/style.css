@@ -326,7 +326,8 @@ header {
     color: #000;
 }
 .navbar-nav li a,
-.social-nav li a{
+.social-nav li a,
+.footer-nav li a{
     color: #4d4d4d;
 }
 
@@ -336,11 +337,14 @@ header {
 .navbar-nav .open > a:hover,
 .navbar-nav .open > a:focus,
 .social-nav li a:hover,
-.social-nav li a:focus{
+.social-nav li a:focus,
+.footer-nav li a:hover,
+.footer-nav li a:focus{
     background-color: transparent;
 }
 
-.navbar-nav li a {
+.navbar-nav li a,
+.footer-nav li a{
     font-size: 12px;
 }
 
@@ -357,7 +361,6 @@ header {
     left: 0;
     right: 0;
     box-shadow: none;
-    background-color: rgba(255, 255, 255, .5);
 }
 
 .navbar-nav > li.open > a:before {
@@ -405,9 +408,8 @@ header {
     transition-timing-function: ease-in;
     max-height: 1000px;
     overflow: hidden;
-
+    border-bottom: 1px solid #ededed;
 }
-
 .open .dropdown-menu, .dropdown-menu {
     display: unset;
 }
@@ -508,12 +510,16 @@ header {
     border-radius: 0;
     height: 30px;
     min-width: 293px;
+    border-color: #ededed;
+    box-shadow: none;
+}
+.search.sing-up > input{
+    height: 43px;
 }
 
-.search > input:focus,
-.search > input {
+.search > input:focus{
     box-shadow: none;
-    border: 1px solid #ededed;
+    border-color: #B3E4D6;
 }
 
 .search > .form-control::-webkit-input-placeholder {
@@ -546,6 +552,17 @@ header {
     line-height: 30px;
     background-color: transparent;
     font-size: 1.5em;
+}
+.search.sing-up > button{
+    height: 42px;
+}
+.sing-up > .btn-sh{
+    background-color: #B3E4D6;
+    width: unset;
+    min-width: unset;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .banner.top{
     margin-top: 140px;
@@ -699,4 +716,31 @@ padding-top: 30px;
 }
 .social-nav li a{
     font-size: 20px;
+}
+footer h5{
+    font-weight: 700;
+    margin-top: 25px;
+    letter-spacing: .05em;
+}
+.footer-nav li a{
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: .05em;
+    font-size: 13px;
+}
+.footer-nav li a:hover{
+    color: #000;
+}
+.copyright{
+    background-color: #B3E4D6;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.footer{
+    margin-top: 3.5em;
+    padding-top: 1em;
+    padding-bottom: 3.5em;
+    border-top: 1px solid #ededed;
 }
