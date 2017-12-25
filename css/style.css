@@ -285,6 +285,7 @@ header {
     width: 100%;
     background-color: #fff;
     z-index: 999;
+    border-bottom: 1px solid #ededed;
 }
 
 .top-header {
@@ -381,6 +382,7 @@ header {
 }
 
 .dropdown-menu {
+    border-bottom: 1px solid #ededed;
     overflow: hidden;
     max-height: 0;
     padding-top: 0;
@@ -524,23 +526,23 @@ header {
 }
 
 .search > .form-control::-webkit-input-placeholder {
-    color: black;
+    color: gray;
     font-weight: 400;
 }
 .search > .form-control:-moz-placeholder {
-    color: black;
+    color: gray;
     font-weight: 400;
 }
 .search > .form-control::-moz-placeholder {
-    color: black;
+    color: gray;
     font-weight: 400;
 }
 .search > .form-control:-ms-input-placeholder {
-    color: black;
+    color: gray;
     font-weight: 400;
 }
 .search > .form-control:-ms-input-placeholder {
-    color: black;
+    color: gray;
     font-weight: 400;
 }
 .search > button {
