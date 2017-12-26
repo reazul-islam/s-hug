@@ -865,6 +865,7 @@ footer h5{
     font-size: 13px;
     letter-spacing: 0;
     text-transform: capitalize;
+    padding: 10px 30px;
 }
 .filter-nav > li.open > a:before{
     display: none;
